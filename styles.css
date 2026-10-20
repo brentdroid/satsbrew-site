@@ -133,3 +133,7 @@ address{font-style:italic}
 .photo.sign{aspect-ratio:900/990;max-height:620px;max-width:560px}
 .photo.sign img{object-position:50% 50%}
 @media (max-width:820px){.photo.sign{aspect-ratio:900/990}}
+
+/* footer coin logo */
+.footer-brand{gap:.75em;margin-bottom:.6rem}
+.footer-brand img{width:56px;height:56px;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}
