@@ -127,3 +127,9 @@ address{font-style:italic}
 .photo.tall{aspect-ratio:3/4;max-height:680px}
 .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 12%}
 @media (max-width:820px){.photo,.photo.tall{aspect-ratio:4/5;max-height:none;max-width:520px;margin-inline:auto}}
+.photo.square{aspect-ratio:1080/1041;max-height:none}
+.photo.square img{object-position:50% 50%}
+@media (max-width:820px){.photo.square{aspect-ratio:1080/1041}}
+.photo.sign{aspect-ratio:900/990;max-height:620px;max-width:560px}
+.photo.sign img{object-position:50% 50%}
+@media (max-width:820px){.photo.sign{aspect-ratio:900/990}}
