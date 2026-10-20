@@ -113,3 +113,4 @@ address{font-style:italic}
 .beer-card{display:flex;flex-direction:column}
 .beer-card .badges{margin-top:auto;padding-top:1rem}
 @media (max-width:560px){.beer-art{max-width:340px;margin-inline:auto}}
+.beer-notes{color:var(--text);font-size:.95rem}
