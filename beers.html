@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beers | Sats Brew</title>
+  <meta name="description" content="See what's on tap at Sats Brew: our core lineup and seasonal releases.">
+  <link rel="canonical" href="https://satsbrew.com/beers.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sats Brew">
+  <meta property="og:title" content="Beers | Sats Brew">
+  <meta property="og:description" content="See what's on tap at Sats Brew: our core lineup and seasonal releases.">
+  <meta property="og:url" content="https://satsbrew.com/beers.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#1c140d">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">SB</span> Sats Brew</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/beers.html" aria-current="page">Beers</a></li>
+        <li><a href="/visit.html">Visit</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Beers</p>
+        <h1>Our beers</h1>
+        <p class="lead">Tap list and lineup. <span class="placeholder">[Beer list coming soon.]</span></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2>Core lineup</h2>
+        <div class="beer-grid">
+        <article class="beer-card">
+          <div class="beer-swatch" style="--c:#f0c35a"></div>
+          <h3 class="placeholder">[Beer name]</h3>
+          <p class="beer-meta placeholder">[Style] · [ABV]%</p>
+          <p class="placeholder">[Short tasting description: aroma, flavor, finish.]</p>
+        </article>
+        <article class="beer-card">
+          <div class="beer-swatch" style="--c:#e3a33b"></div>
+          <h3 class="placeholder">[Beer name]</h3>
+          <p class="beer-meta placeholder">[Style] · [ABV]%</p>
+          <p class="placeholder">[Short tasting description: aroma, flavor, finish.]</p>
+        </article>
+        <article class="beer-card">
+          <div class="beer-swatch" style="--c:#c9822a"></div>
+          <h3 class="placeholder">[Beer name]</h3>
+          <p class="beer-meta placeholder">[Style] · [ABV]%</p>
+          <p class="placeholder">[Short tasting description: aroma, flavor, finish.]</p>
+        </article>
+        <article class="beer-card">
+          <div class="beer-swatch" style="--c:#b8651e"></div>
+          <h3 class="placeholder">[Beer name]</h3>
+          <p class="beer-meta placeholder">[Style] · [ABV]%</p>
+          <p class="placeholder">[Short tasting description: aroma, flavor, finish.]</p>
+        </article>
+        <article class="beer-card">
+          <div class="beer-swatch" style="--c:#7a3d14"></div>
+          <h3 class="placeholder">[Beer name]</h3>
+          <p class="beer-meta placeholder">[Style] · [ABV]%</p>
+          <p class="placeholder">[Short tasting description: aroma, flavor, finish.]</p>
+        </article>
+        <article class="beer-card">
+          <div class="beer-swatch" style="--c:#3a2216"></div>
+          <h3 class="placeholder">[Beer name]</h3>
+          <p class="beer-meta placeholder">[Style] · [ABV]%</p>
+          <p class="placeholder">[Short tasting description: aroma, flavor, finish.]</p>
+        </article>
+        </div>
+      </div>
+    </section>
+    <section class="section alt">
+      <div class="wrap">
+        <h2>Seasonal &amp; limited</h2>
+        <p class="placeholder">[Seasonal / limited releases coming soon.]</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">SB</span> Sats Brew</a>
+        <p class="muted">Craft beer, brewed with care.</p>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <p class="placeholder">[Street address]<br>[City, State ZIP]</p>
+        <p class="placeholder">Hours coming soon</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p class="placeholder">[email]<br>[phone]</p>
+        <p class="placeholder">[Social media links]</p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p class="muted">&copy; <span id="year">2026</span> Sats Brew. Please drink responsibly. Must be 21+ to purchase alcohol.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var b = document.querySelector('.nav-toggle'), n = document.getElementById('site-nav');
+      b.addEventListener('click', function () {
+        var open = n.classList.toggle('open');
+        b.setAttribute('aria-expanded', open);
+        b.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
