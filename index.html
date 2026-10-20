@@ -58,7 +58,7 @@
         </div>
         <div class="beer-grid">
         <article class="beer-card">
-          <div class="beer-swatch" style="--c:#f0c35a"></div>
+          <div class="beer-art beer-art-placeholder" role="img" aria-label="Label art coming soon"><span>[Hodler's Hell label art]</span></div>
           <h3>Hodler's Hell</h3>
           <p class="beer-meta">Munich Helles · <span class="placeholder">[ABV]%</span></p>
           <p>Named for Bitcoin hodlers (HODL).</p>
@@ -69,7 +69,10 @@
           </ul>
         </article>
         <article class="beer-card">
-          <div class="beer-swatch" style="--c:#d98a2b"></div>
+          <picture class="beer-art">
+            <source srcset="/images/finney-the-runner.webp" type="image/webp">
+            <img src="/images/finney-the-runner.jpg" width="600" height="600" loading="lazy" decoding="async" alt="Finney the Runner label: silhouette of a runner on a red circle">
+          </picture>
           <h3>Finney the Runner</h3>
           <p class="beer-meta">Double IPA · <span class="placeholder">[ABV]%</span></p>
           <p>Named after Hal Finney.</p>
