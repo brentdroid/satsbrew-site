@@ -1,4 +1,4 @@
-# Sats Brew website
+# satsbrew website
 
 Static site for [satsbrew.com](https://satsbrew.com). Plain HTML + `styles.css`, no build step. Served by GitHub Pages from `main` (root).
 
